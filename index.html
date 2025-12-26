@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="en" id="html">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="GLM-4.7 (glm47) - The advanced GLM large language model by Zhipu AI. Free GLM API with 128K context, powerful reasoning, and multilingual GLM support. Start building with GLM today.">
+    <meta name="keywords" content="GLM-4.7, glm47, GLM, GLM API, GLM model, ChatGLM, Zhipu AI, large language model, artificial intelligence, LLM API, AI development, GLM coding, GLM-4.7 API">
+    <meta name="author" content="Zhipu AI">
+    <meta name="robots" content="index, follow">
+
+    <!-- Additional SEO Meta Tags -->
+    <meta name="application-name" content="GLM-4.7">
+    <meta name="apple-mobile-web-app-title" content="GLM-4.7">
+    <meta name="theme-color" content="#2563eb">
+
+    <!-- Language and Region -->
+    <meta http-equiv="Content-Language" content="en">
+
+    <!-- Open Graph / Social Media -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="GLM-4.7 (glm47) API - GLM AI Language Model">
+    <meta property="og:description" content="Free GLM API access to GLM-4.7 (glm47) with 128K context. The GLM model delivers powerful reasoning and multilingual GLM support for AI development.">
+    <meta property="og:image" content="https://glm.tech/images/og-image.jpg">
+    <meta property="og:url" content="https://glm.tech/">
+    <meta property="og:site_name" content="GLM-4.7">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="GLM-4.7 (glm47) API - Free GLM AI Language Model">
+    <meta name="twitter:description" content="Free GLM API access to GLM-4.7 (glm47) with 128K context. The GLM model provides powerful reasoning and multilingual GLM support for AI applications.">
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://glm.tech/">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>GLM</text></svg>">
+
+    <!-- Preconnect for performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "GLM-4.7 (glm47) API - Free GLM AI Language Model by Zhipu AI",
+        "description": "Free GLM API access to GLM-4.7 (glm47) with 128K context, powerful reasoning, and multilingual GLM support. Start building with GLM today.",
+        "url": "https://glm.tech/",
+        "keywords": "GLM-4.7, glm47, GLM, GLM API, GLM model, ChatGLM",
+        "mainEntity": {
+            "@type": "SoftwareApplication",
+            "name": "GLM-4.7",
+            "alternateName": "glm47",
+            "applicationCategory": "GLM AI Language Model API",
+            "operatingSystem": "Web Browser",
+            "offers": {
+                "@type": "Offer",
+                "price": "0",
+                "priceCurrency": "USD"
+            }
+        },
+        "action": {
+            "@type": "UseAction",
+            "target": {
+                "@type": "EntryPoint",
+                "urlTemplate": "https://chatglm.cn/main/alltoolsdetail",
+                "inLanguage": "en",
+                "actionPlatform": "https://schema.org/WebPlatform"
+            },
+            "object": {
+                "@type": "Product",
+                "name": "GLM-4.7",
+                "alternateName": "glm47"
+            },
+            "result": {
+                "@type": "Thing",
+                "name": "GLM AI Experience"
+            }
+        }
+    }
+    </script>
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <title id="page-title">GLM-4.7 (glm47) API - Free GLM AI Language Model | Zhipu AI</title>
+</head>
+<body class="font-sans antialiased bg-gray-50">
+    <!-- Skip to main content -->
+    <a href="#main" class="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 bg-blue-600 text-white px-4 py-2 rounded">
+        Skip to main content
+    </a>
+
+    <!-- Header -->
+    <header class="fixed top-0 w-full bg-white/90 backdrop-blur-md shadow-sm z-40 transition-all">
+        <nav class="container mx-auto px-6 py-4">
+            <div class="flex items-center justify-between">
+                <!-- Logo -->
+                <div class="flex items-center space-x-3">
+                    <div class="w-12 h-12 bg-gradient-to-br from-blue-600 to-purple-600 rounded-2xl flex items-center justify-center shadow-lg">
+                        <span class="text-white font-bold text-xl">GLM</span>
+                    </div>
+                    <div>
+                        <h1 class="text-xl font-bold text-gray-900">GLM-4.7</h1>
+                        <p class="text-xs text-gray-500">by Zhipu AI</p>
+                    </div>
+                </div>
+
+                <!-- Desktop Navigation -->
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="#features" class="text-gray-600 hover:text-blue-600 transition-colors">Features</a>
+                    <a href="#capabilities" class="text-gray-600 hover:text-blue-600 transition-colors">Capabilities</a>
+                </div>
+
+                <!-- Mobile Menu Button -->
+                <button id="mobile-menu-btn" class="md:hidden text-gray-600">
+                    <i class="fas fa-bars text-xl"></i>
+                </button>
+            </div>
+        </nav>
+
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden bg-white border-t">
+            <div class="container mx-auto px-6 py-4 space-y-4">
+                <a href="#features" class="block text-gray-600 hover:text-blue-600">Features</a>
+                <a href="#capabilities" class="block text-gray-600 hover:text-blue-600">Capabilities</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main id="main">
+        <!-- Hero Section -->
+        <section class="min-h-screen flex items-center justify-center relative overflow-hidden pt-20">
+            <!-- Animated Background -->
+            <div class="absolute inset-0 overflow-hidden">
+                <div class="gradient-bg"></div>
+                <div class="floating-shapes"></div>
+            </div>
+
+            <!-- Content -->
+            <div class="container mx-auto px-6 relative z-10">
+                <div class="max-w-5xl mx-auto text-center">
+                    <!-- Badge -->
+                    <div class="inline-flex items-center bg-white/20 backdrop-blur-sm text-white px-4 py-2 rounded-full mb-8">
+                        <span class="w-2 h-2 bg-green-400 rounded-full mr-2 animate-pulse"></span>
+                        <span>Newly Upgraded</span>
+                    </div>
+
+                    <!-- Main Heading -->
+                    <h1 class="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
+                        <span>GLM-4.7 by Zhipu AI</span><br>
+                        <span class="block mt-2 text-transparent bg-clip-text bg-gradient-to-r from-yellow-300 to-orange-400">
+                            AI New Era
+                        </span>
+                    </h1>
+
+                    <!-- Subtitle -->
+                    <p class="text-xl md:text-2xl text-white/90 mb-8 max-w-3xl mx-auto">
+                        GLM-4.7 (glm47) targets Claude Sonnet 4.5, surpasses GPT-5 in key benchmarks. The GLM model is compatible with Claude Code, Cline, Kilo Code, Gemini CLI, and Grok CLI
+                    </p>
+
+                    <!-- API Focus CTA -->
+                    <div class="bg-white/10 backdrop-blur-sm rounded-2xl p-8 mb-8 border border-white/20">
+                        <div class="text-center mb-6">
+                            <i class="fas fa-code text-5xl text-yellow-300 mb-4"></i>
+                            <h3 class="text-2xl font-bold text-white mb-2">GLM API Development First Choice</h3>
+                            <p class="text-white/80">GLM API with easy-to-use interface, supporting multiple programming languages. Quick GLM integration for your projects</p>
+                        </div>
+
+                        <!-- API Features -->
+                        <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-6">
+                            <div class="text-center">
+                                <i class="fas fa-bolt text-3xl text-yellow-300 mb-2"></i>
+                                <h4 class="text-white font-semibold mb-1">GLM Fast Response</h4>
+                                <p class="text-white/70 text-sm">Millisecond-level GLM response speed</p>
+                            </div>
+                            <div class="text-center">
+                                <i class="fas fa-shield-alt text-3xl text-yellow-300 mb-2"></i>
+                                <h4 class="text-white font-semibold mb-1">GLM Stable & Reliable</h4>
+                                <p class="text-white/70 text-sm">99.9% GLM availability guarantee</p>
+                            </div>
+                            <div class="text-center">
+                                <i class="fas fa-cogs text-3xl text-yellow-300 mb-2"></i>
+                                <h4 class="text-white font-semibold mb-1">GLM Easy Integration</h4>
+                                <p class="text-white/70 text-sm">Complete GLM documentation and examples</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- CTA Buttons -->
+                    <div class="flex flex-col sm:flex-row gap-4 justify-center mb-16">
+                        <a href="https://www.bigmodel.cn/glm-coding?ic=G9SWDYDDE7" target="_blank" class="bg-gradient-to-r from-yellow-400 to-orange-500 text-gray-900 px-8 py-4 rounded-xl text-lg font-bold hover:from-yellow-300 hover:to-orange-400 transform hover:scale-105 transition-all shadow-xl block text-center">
+                            <i class="fas fa-external-link-alt mr-2"></i>
+                            <span>Register GLM API Now</span>
+                        </a>
+                        <button onclick="scrollToFeatures()" class="bg-transparent border-2 border-white text-white px-8 py-4 rounded-xl text-lg font-bold hover:bg-white/10 transition-all">
+                            <i class="fas fa-play-circle mr-2"></i>
+                            <span>Learn GLM More</span>
+                        </button>
+                    </div>
+
+                    <!-- Stats -->
+                    <div class="grid grid-cols-2 md:grid-cols-4 gap-8 mt-16">
+                        <div class="text-center">
+                            <div class="text-4xl font-bold text-white mb-2">128K+</div>
+                            <div class="text-white/80">Context Length</div>
+                        </div>
+                        <div class="text-center">
+                            <div class="text-4xl font-bold text-white mb-2">Billions</div>
+                            <div class="text-white/80">Model Parameters</div>
+                        </div>
+                        <div class="text-center">
+                            <div class="text-4xl font-bold text-white mb-2">20+</div>
+                            <div class="text-white/80">Languages</div>
+                        </div>
+                        <div class="text-center">
+                            <div class="text-4xl font-bold text-white mb-2">1M+</div>
+                            <div class="text-white/80">Active Users</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Scroll Indicator -->
+            <div class="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
+                <i class="fas fa-chevron-down text-2xl text-white/60"></i>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section id="features" class="py-20 bg-white">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-16">
+                    <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4">GLM-4.7 Core Features</h2>
+                    <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                        GLM-4.7 (glm47) has made breakthrough progress in multiple dimensions, providing you with unprecedented GLM AI experience
+                    </p>
+                </div>
+
+                <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                    <!-- Feature 1 -->
+                    <div class="group p-8 bg-gradient-to-br from-gray-50 to-gray-100 rounded-2xl hover:shadow-2xl transition-all hover:-translate-y-2">
+                        <div class="w-16 h-16 bg-gradient-to-br from-blue-500 to-blue-600 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+                            <i class="fas fa-brain text-white text-2xl"></i>
+                        </div>
+                        <h3 class="text-xl font-semibold text-gray-900 mb-3">GLM Deep Understanding</h3>
+                        <p class="text-gray-600">GLM powerful reading comprehension capabilities, accurately grasping semantics and understanding complex instructions</p>
+                        <ul class="mt-4 space-y-2 text-sm text-gray-600">
+                            <li class="flex items-center">
+                                <i class="fas fa-check text-green-500 mr-2"></i>
+                                <span>GLM Logical Reasoning</span>
+                            </li>
+                            <li class="flex items-center">
+                                <i class="fas fa-check text-green-500 mr-2"></i>
+                                <span>GLM Knowledge Q&A</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Feature 2 -->
+                    <div class="group p-8 bg-gradient-to-br from-gray-50 to-gray-100 rounded-2xl hover:shadow-2xl transition-all hover:-translate-y-2">
+                        <div class="w-16 h-16 bg-gradient-to-br from-purple-500 to-purple-600 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+                            <i class="fas fa-pen-fancy text-white text-2xl"></i>
+                        </div>
+                        <h3 class="text-xl font-semibold text-gray-900 mb-3">GLM Creativity</h3>
+                        <p class="text-gray-600">GLM high-quality copywriting, creative content generation, multimodal GLM content creation</p>
+                        <ul class="mt-4 space-y-2 text-sm text-gray-600">
+                            <li class="flex items-center">
+                                <i class="fas fa-check text-green-500 mr-2"></i>
+                                <span>GLM Content Generation</span>
+                            </li>
+                            <li class="flex items-center">
+                                <i class="fas fa-check text-green-500 mr-2"></i>
+                                <span>GLM Creative Design</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Feature 3 -->
+                    <div class="group p-8 bg-gradient-to-br from-gray-50 to-gray-100 rounded-2xl hover:shadow-2xl transition-all hover:-translate-y-2">
+                        <div class="w-16 h-16 bg-gradient-to-br from-green-500 to-green-600 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+                            <i class="fas fa-code text-white text-2xl"></i>
+                        </div>
+                        <h3 class="text-xl font-semibold text-gray-900 mb-3">GLM Code Assistant</h3>
+                        <p class="text-gray-600">GLM supports multiple programming languages, GLM code generation and optimization, technical problem solving</p>
+                        <ul class="mt-4 space-y-2 text-sm text-gray-600">
+                            <li class="flex items-center">
+                                <i class="fas fa-check text-green-500 mr-2"></i>
+                                <span>GLM Code Generation</span>
+                            </li>
+                            <li class="flex items-center">
+                                <i class="fas fa-check text-green-500 mr-2"></i>
+                                <span>GLM Debugging & Optimization</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Feature 4 -->
+                    <div class="group p-8 bg-gradient-to-br from-gray-50 to-gray-100 rounded-2xl hover:shadow-2xl transition-all hover:-translate-y-2">
+                        <div class="w-16 h-16 bg-gradient-to-br from-orange-500 to-orange-600 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+                            <i class="fas fa-chart-line text-white text-2xl"></i>
+                        </div>
+                        <h3 class="text-xl font-semibold text-gray-900 mb-3">GLM Logical Reasoning</h3>
+                        <p class="text-gray-600">GLM complex problem analysis, mathematical and scientific computing, GLM decision support</p>
+                        <ul class="mt-4 space-y-2 text-sm text-gray-600">
+                            <li class="flex items-center">
+                                <i class="fas fa-check text-green-500 mr-2"></i>
+                                <span>GLM Problem Analysis</span>
+                            </li>
+                            <li class="flex items-center">
+                                <i class="fas fa-check text-green-500 mr-2"></i>
+                                <span>GLM Decision Support</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Capabilities Section -->
+        <section id="capabilities" class="py-20 bg-gray-50">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-16">
+                    <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4">GLM-4.7 Capability Matrix</h2>
+                    <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                        GLM-4.7 (glm47) excels in various dimensions, providing comprehensive GLM solutions for your needs
+                    </p>
+                </div>
+
+                <div class="grid md:grid-cols-2 gap-12 max-w-5xl mx-auto">
+                    <!-- Capability Cards -->
+                    <div class="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all">
+                        <div class="flex items-center mb-6">
+                            <div class="w-14 h-14 bg-blue-100 rounded-xl flex items-center justify-center mr-4">
+                                <span class="text-2xl">🧠</span>
+                            </div>
+                            <h3 class="text-2xl font-semibold text-gray-900">GLM Understanding</h3>
+                        </div>
+                        <div class="space-y-4">
+                            <div class="flex items-center justify-between p-3 bg-gray-50 rounded-lg">
+                                <span class="text-gray-700">GLM Reading Comprehension</span>
+                                <div class="flex items-center">
+                                    <div class="w-32 bg-gray-200 rounded-full h-2 mr-2">
+                                        <div class="bg-blue-600 h-2 rounded-full" style="width: 95%"></div>
+                                    </div>
+                                    <span class="text-sm font-semibold text-blue-600">95%</span>
+                                </div>
+                            </div>
+                            <div class="flex items-center justify-between p-3 bg-gray-50 rounded-lg">
+                                <span class="text-gray-700">GLM Logical Reasoning</span>
+                                <div class="flex items-center">
+                                    <div class="w-32 bg-gray-200 rounded-full h-2 mr-2">
+                                        <div class="bg-blue-600 h-2 rounded-full" style="width: 92%"></div>
+                                    </div>
+                                    <span class="text-sm font-semibold text-blue-600">92%</span>
+                                </div>
+                            </div>
+                            <div class="flex items-center justify-between p-3 bg-gray-50 rounded-lg">
+                                <span class="text-gray-700">GLM Knowledge Q&A</span>
+                                <div class="flex items-center">
+                                    <div class="w-32 bg-gray-200 rounded-full h-2 mr-2">
+                                        <div class="bg-blue-600 h-2 rounded-full" style="width: 98%"></div>
+                                    </div>
+                                    <span class="text-sm font-semibold text-blue-600">98%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all">
+                        <div class="flex items-center mb-6">
+                            <div class="w-14 h-14 bg-purple-100 rounded-xl flex items-center justify-center mr-4">
+                                <span class="text-2xl">✨</span>
+                            </div>
+                            <h3 class="text-2xl font-semibold text-gray-900">GLM Creativity</h3>
+                        </div>
+                        <div class="space-y-4">
+                            <div class="flex items-center justify-between p-3 bg-gray-50 rounded-lg">
+                                <span class="text-gray-700">GLM Copywriting</span>
+                                <div class="flex items-center">
+                                    <div class="w-32 bg-gray-200 rounded-full h-2 mr-2">
+                                        <div class="bg-purple-600 h-2 rounded-full" style="width: 94%"></div>
+                                    </div>
+                                    <span class="text-sm font-semibold text-purple-600">94%</span>
+                                </div>
+                            </div>
+                            <div class="flex items-center justify-between p-3 bg-gray-50 rounded-lg">
+                                <span class="text-gray-700">GLM Code Generation</span>
+                                <div class="flex items-center">
+                                    <div class="w-32 bg-gray-200 rounded-full h-2 mr-2">
+                                        <div class="bg-purple-600 h-2 rounded-full" style="width: 90%"></div>
+                                    </div>
+                                    <span class="text-sm font-semibold text-purple-600">90%</span>
+                                </div>
+                            </div>
+                            <div class="flex items-center justify-between p-3 bg-gray-50 rounded-lg">
+                                <span class="text-gray-700">GLM Creative Design</span>
+                                <div class="flex items-center">
+                                    <div class="w-32 bg-gray-200 rounded-full h-2 mr-2">
+                                        <div class="bg-purple-600 h-2 rounded-full" style="width: 88%"></div>
+                                    </div>
+                                    <span class="text-sm font-semibold text-purple-600">88%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all">
+                        <div class="flex items-center mb-6">
+                            <div class="w-14 h-14 bg-green-100 rounded-xl flex items-center justify-center mr-4">
+                                <span class="text-2xl">🔧</span>
+                            </div>
+                            <h3 class="text-2xl font-semibold text-gray-900">GLM Tool Usage</h3>
+                        </div>
+                        <div class="space-y-4">
+                            <div class="flex items-center justify-between p-3 bg-gray-50 rounded-lg">
+                                <span class="text-gray-700">GLM API Calls</span>
+                                <div class="flex items-center">
+                                    <div class="w-32 bg-gray-200 rounded-full h-2 mr-2">
+                                        <div class="bg-green-600 h-2 rounded-full" style="width: 96%"></div>
+                                    </div>
+                                    <span class="text-sm font-semibold text-green-600">96%</span>
+                                </div>
+                            </div>
+                            <div class="flex items-center justify-between p-3 bg-gray-50 rounded-lg">
+                                <span class="text-gray-700">GLM Data Processing</span>
+                                <div class="flex items-center">
+                                    <div class="w-32 bg-gray-200 rounded-full h-2 mr-2">
+                                        <div class="bg-green-600 h-2 rounded-full" style="width: 93%"></div>
+                                    </div>
+                                    <span class="text-sm font-semibold text-green-600">93%</span>
+                                </div>
+                            </div>
+                            <div class="flex items-center justify-between p-3 bg-gray-50 rounded-lg">
+                                <span class="text-gray-700">GLM File Processing</span>
+                                <div class="flex items-center">
+                                    <div class="w-32 bg-gray-200 rounded-full h-2 mr-2">
+                                        <div class="bg-green-600 h-2 rounded-full" style="width: 91%"></div>
+                                    </div>
+                                    <span class="text-sm font-semibold text-green-600">91%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all">
+                        <div class="flex items-center mb-6">
+                            <div class="w-14 h-14 bg-orange-100 rounded-xl flex items-center justify-center mr-4">
+                                <span class="text-2xl">🌐</span>
+                            </div>
+                            <h3 class="text-2xl font-semibold text-gray-900">GLM Multilingual Support</h3>
+                        </div>
+                        <div class="space-y-4">
+                            <div class="flex items-center justify-between p-3 bg-gray-50 rounded-lg">
+                                <span class="text-gray-700">GLM Chinese</span>
+                                <div class="flex items-center">
+                                    <div class="w-32 bg-gray-200 rounded-full h-2 mr-2">
+                                        <div class="bg-orange-600 h-2 rounded-full" style="width: 99%"></div>
+                                    </div>
+                                    <span class="text-sm font-semibold text-orange-600">99%</span>
+                                </div>
+                            </div>
+                            <div class="flex items-center justify-between p-3 bg-gray-50 rounded-lg">
+                                <span class="text-gray-700">GLM English</span>
+                                <div class="flex items-center">
+                                    <div class="w-32 bg-gray-200 rounded-full h-2 mr-2">
+                                        <div class="bg-orange-600 h-2 rounded-full" style="width: 95%"></div>
+                                    </div>
+                                    <span class="text-sm font-semibold text-orange-600">95%</span>
+                                </div>
+                            </div>
+                            <div class="flex items-center justify-between p-3 bg-gray-50 rounded-lg">
+                                <span class="text-gray-700">GLM Other Languages</span>
+                                <div class="flex items-center">
+                                    <div class="w-32 bg-gray-200 rounded-full h-2 mr-2">
+                                        <div class="bg-orange-600 h-2 rounded-full" style="width: 85%"></div>
+                                    </div>
+                                    <span class="text-sm font-semibold text-orange-600">85%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- API CTA Section -->
+        <section class="py-20 bg-gradient-to-br from-gray-900 to-gray-800">
+            <div class="container mx-auto px-6 text-center">
+                <h2 class="text-4xl md:text-5xl font-bold text-white mb-6">Ready to Build Your GLM AI Application?</h2>
+                <p class="text-xl text-gray-300 mb-8 max-w-3xl mx-auto">
+                    Join thousands of developers using GLM-4.7 (glm47) API to build innovative GLM AI applications. Start with GLM API today
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                    <a href="https://www.bigmodel.cn/glm-coding?ic=G9SWDYDDE7" target="_blank" class="bg-gradient-to-r from-yellow-400 to-orange-500 text-gray-900 px-8 py-4 rounded-lg text-lg font-medium hover:from-yellow-300 hover:to-orange-400 transition-all transform hover:scale-105 block text-center">
+                        <i class="fas fa-code mr-2"></i>
+                        <span>Register GLM API Now</span>
+                    </a>
+                    <button onclick="handleTryNow()" class="bg-white text-gray-900 px-8 py-4 rounded-lg text-lg font-medium hover:bg-gray-100 transition-all transform hover:scale-105">
+                        <i class="fas fa-robot mr-2"></i>
+                        <span>Experience GLM Chat</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-gray-300 py-12">
+        <div class="container mx-auto px-6">
+            <div class="grid md:grid-cols-4 gap-8 mb-8">
+                <div>
+                    <div class="flex items-center space-x-2 mb-4">
+                        <div class="w-10 h-10 bg-gradient-to-br from-blue-600 to-purple-600 rounded-lg flex items-center justify-center">
+                            <span class="text-white font-bold">GLM</span>
+                        </div>
+                        <span class="text-lg font-bold text-white">GLM-4.7</span>
+                    </div>
+                    <p class="text-sm">
+                        Official GLM by Zhipu AI, providing you with the most advanced GLM AI experience
+                    </p>
+                </div>
+                
+            </div>
+
+            <div class="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center">
+                <p class="text-sm mb-4 md:mb-0">
+                    © 2025 Zhipu AI. All GLM rights reserved. GLM-4.7 (glm47) by Zhipu AI.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="back-to-top" class="fixed bottom-8 right-8 bg-gradient-to-r from-blue-600 to-purple-600 text-white w-12 h-12 rounded-full shadow-lg hover:shadow-xl transition-all transform hover:scale-110 opacity-0 invisible">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"></script>
+    <script src="script.js"></script>
+
+    <!-- Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-XXXXXXXXXX');
+    </script>
+</body>
+</html>
